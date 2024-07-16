@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flexcontainer{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 50vh;
+            background-color: blue;
+            align-items:center;
+            justify-content:center;
+            /* align-content: space-between; */
+        }
+        .flexcontainer>div{
+            background-color: white;
+            width: 100px;
+            margin:10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>The justify-content property</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.
+    </p>
+    <div class="flexcontainer">
+    <div>1</div>
+    <div>2</div>
+    <!-- <div>3</div>
+    <div>4</div> -->
+     <!-- <div>5</div>
+    <div>6</div>
+    <div>7</div> -->
+    <div style="order:3; flex-grow:2;">8</div>
+    <div>9</div>
+    <div>10</div>
+</div>
+</body>
+</html>
