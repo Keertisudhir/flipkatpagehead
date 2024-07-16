@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gridcontainer{
+            background-color: azure;
+            margin: 5px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .gridcontainer>div{
+            padding:20px;
+        }
+        .head{
+            background-color: indianred;
+            /* grid-column: span 3;
+            grid-row: 2; */
+        }
+        .sd1{
+            background-color: rgb(227, 106, 106);
+            /* grid-row: 10; */
+
+        }
+        .mc{
+            background-color: rgb(227, 106, 106);
+        }
+        .sd2{
+            background-color: rgb(227, 106, 106);
+        }
+        .foot{
+            background-color: indianred;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="gridcontainer">
+        <div class="head">Header</div>
+        <div class="sd1">Sidebar1</div>
+        <div class="mc"> Main Content</div>
+        <div class="sd2">Sidebar2</div>
+        <div class="foot">Footer</div>
+    </div>
+</body>
+</html>
